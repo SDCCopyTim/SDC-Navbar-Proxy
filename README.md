@@ -1,38 +1,39 @@
-# Overview-2 Proxy
+# Project Name
 
-Jason's proxy server.
+> Project description
 
 ## Related Projects
 
-  - https://github.com/Go-Tim/nick-nav
-  - https://github.com/Go-Tim/tracy-detail-desc-calendarsticky
-  - https://github.com/Go-Tim/overview-2
-  - https://github.com/Go-Tim/nick-reviews
-  - https://github.com/Go-Tim/tim-suggestions
-
+  - https://github.com/teamName/repo
+  - https://github.com/teamName/repo
+  - https://github.com/teamName/repo
+  - https://github.com/teamName/repo
 
 ## Table of Contents
 
-1. [Setup](#Setup)
+1. [Usage](#Usage)
+1. [Requirements](#requirements)
+1. [Development](#development)
 
+## Usage
 
-## Setup
+> Some usage instructions
 
-Open up the terminal and navigate to the root directory. Install the dependencies first.
+## Requirements
+
+An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
+
+- Node 6.13.0
+- etc
+
+## Development
+
+### Installing Dependencies
+
+From within the root directory:
 
 ```sh
+npm install -g webpack
 npm install
 ```
 
-Start the server and webpack for each module by navigating to each respective directory and then running the specific scripts.
-
-Navigate back to the overview-2-proxy directory and run these scripts to start the proxy server and serve the static files:
-
-```sh
-npm start
-npm run build
-```
-
-Open up your browser and navigate to http://localhost:3000/
-
-Every refresh/reload will render a random campsite!
